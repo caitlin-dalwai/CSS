@@ -1,0 +1,30 @@
+/* 1.  Inside the article element, create elements with your own information and use all the different types of selectors. Make sure to use comments to explain them in your code. */
+
+/* <article>
+        <h2>My personal favourite car:</h2>
+        <p>My favourite car is a Porsche Cayenne hot pink. It being hot pink is a very important part.</p>
+        <h3>Reasons why it is my favourite?</h3>
+        <ul>
+            <li>The speed</li>
+            <li>The technology of the vehicle</li>
+            <li>The shape of the body</li>
+            <li>The interior design</li>
+        </ul>
+    </article>  */
+
+    /* 2.  Make sure to use 4 Pseudo elements and 4 Pseudo classes any where on the HTML page. (TOTal: 8)
+    Explain using comments what each Pseudo element and Pseudo class does that you decided to use. */
+
+    /* first-letter .   first-line.    after.   before [ELEMENTS] */
+    /* hover.   first-child.    active.  nth-child(n) */
+
+    /* Styles the first letter of text in the element */
+    #first-letter::first-letter{
+        color: pink;
+    }
+
+    /* Styles the first line of text in an element */
+    #first-line::first-line{
+        background-color: aqua;
+    }
+
